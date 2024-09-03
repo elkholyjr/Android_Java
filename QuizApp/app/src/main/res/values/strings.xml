@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S7DQuizApp</string>
+    <string-array name="sort">
+        <item>sort by score descendingly</item>
+        <item>sort by name descendingly</item>
+    </string-array>
+</resources>

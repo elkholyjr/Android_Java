@@ -1,0 +1,13 @@
+#Tue Sep 03 22:32:39 EEST 2024
+base.0=C\:\\Users\\PC\\Desktop\\S7DQuizApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\PC\\Desktop\\S7DQuizApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\PC\\Desktop\\S7DQuizApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.3=C\:\\Users\\PC\\Desktop\\S7DQuizApp\\app\\build\\intermediates\\desugar_lib_dex\\debug\\classes1000.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=12/classes.dex
+path.3=classes1000.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex

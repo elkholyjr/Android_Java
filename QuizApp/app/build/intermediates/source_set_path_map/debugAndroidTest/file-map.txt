@@ -1,0 +1,5 @@
+com.hanynemr.s7dquizapp.test.app-core-1.6.1-0 C:\Users\PC\.gradle\caches\transforms-3\a8892ed0e1be60789a307f9488afb8ed\transformed\core-1.6.1\res
+com.hanynemr.s7dquizapp.test.app-androidTest-1 C:\Users\PC\Desktop\S7DQuizApp\app\build\generated\res\resValues\androidTest\debug
+com.hanynemr.s7dquizapp.test.app-mergeDebugAndroidTestResources-2 C:\Users\PC\Desktop\S7DQuizApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.hanynemr.s7dquizapp.test.app-mergeDebugAndroidTestResources-3 C:\Users\PC\Desktop\S7DQuizApp\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.hanynemr.s7dquizapp.test.app-merged_res-4 C:\Users\PC\Desktop\S7DQuizApp\app\build\intermediates\merged_res\debugAndroidTest

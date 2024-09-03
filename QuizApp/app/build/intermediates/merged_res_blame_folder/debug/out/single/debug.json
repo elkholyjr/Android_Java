@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/layout_test.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/layout/test.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/raw_fail.mp3.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/raw/fail.mp3"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/raw_faill.mp4.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/raw/faill.mp4"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/layout_activity_stat.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/layout/activity_stat.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/raw_success.mp3.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/raw/success.mp3"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/layout_player_item.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/layout/player_item.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.hanynemr.s7dquizapp-merged_res-31:/layout_activity_player.xml.flat",
+        "source": "com.hanynemr.s7dquizapp-main-33:/layout/activity_player.xml"
+    }
+]
