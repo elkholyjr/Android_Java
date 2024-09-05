@@ -4,7 +4,8 @@ This is my journey of learning android app development with java
 
 ![Gas app images](https://github.com/user-attachments/assets/08a7841f-bc88-472c-878e-1afa92028bc8)
 
-![Screenrecorder-2024-09-05-12-52-45-403_1 (3)](https://github.com/user-attachments/assets/0641291d-488c-4925-9a97-a99b935bb312)
+![ezgif-7-7ca2f3c10f](https://github.com/user-attachments/assets/c0bebc71-0711-4d6f-ae21-2116c92efeb2)
+
 
 
 
