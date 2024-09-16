@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:layoutDirection="ltr"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/nearest_lock"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:foregroundTint="#FFFFFF"
+        android:onClick="nearLock"
+        android:src="@drawable/metro_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/startStationTextInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/startStationTextInput"
+        app:layout_constraintTop_toTopOf="@+id/startStationTextInput"
+        app:layout_constraintVertical_bias="1.0"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/mapBut2"
+        android:layout_width="65dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:background="#00000000"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSwitch"
+        app:srcCompat="@drawable/metro_icon"
+        app:tint="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cairo_bold"
+        android:gravity="center"
+        android:text="Metro      Masr"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:translationZ="0dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="124dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="50dp"
+        android:translationZ="1000dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/startStationTextInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.782"
+        app:srcCompat="@drawable/cairo_metro_logo"
+        app:tint="@color/colorPrimaryDark"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/startStationTextInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/bottom_nav_background"
+        android:textColorHint="@color/white"
+        android:textDirection="ltr"
+        app:boxBackgroundColor="@color/black"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:endIconTint="@color/white"
+        app:hintTextColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toEndOf="@+id/mapBut1"
+        app:layout_constraintTop_toTopOf="@+id/mapBut1">
+
+        <AutoCompleteTextView
+            android:id="@+id/startStationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:hint="Start station"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSwitch"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:enabled="true"
+        app:cornerRadius="12dp"
+        app:icon="@drawable/iconmonstr_media_control_39"
+        app:iconGravity="textTop"
+        app:iconPadding="8dp"
+        app:iconSize="25dp"
+        app:iconTint="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/startStationTextInput" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/endStationTextInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textColorHint="@color/white"
+        android:textDirection="ltr"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:endIconTint="@color/white"
+        app:hintTextColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toEndOf="@+id/mapBut2"
+        app:layout_constraintTop_toTopOf="@+id/mapBut2">
+
+        <AutoCompleteTextView
+            android:id="@+id/endStationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray"
+            android:hint="End station"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/mapBut1"
+        android:layout_width="65dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:background="#00000000"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/metro_icon"
+        app:tint="#FF0000" />
+
+    <Button
+        android:id="@+id/nearBut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Show"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/gifImageView2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/endStationTextInput" />
+
+    <EditText
+        android:id="@+id/destinationAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/cairo"
+        android:hint="Enter the destination address"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/nearBut"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/endStationTextInput" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/movingmetro1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/destinationAddress" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="Find"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nearBut" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
