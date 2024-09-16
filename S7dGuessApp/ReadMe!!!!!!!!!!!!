@@ -1,0 +1,30 @@
+The Guessing Game App is a simple Android application designed to offer an engaging guessing game experience. Players start the game by clicking the "Start" button, which initializes a random number between 1 and 9. 
+Players then guess the number by selecting buttons labeled with numbers. The app provides feedback on whether the guess is correct or incorrect and tracks the number of wrong guesses. The game ends after three incorrect guesses.
+
+Features:
+-Text-to-Speech (TTS): Provides audio feedback by reading out the guessed number if sound is enabled.
+-Shake Detection: Resets the game when the device is shaken.
+-Animations: Includes visual effects using the YoYo library for enhanced user experience.
+-Sound Toggle: Allows users to enable or disable sound.
+
+Key Components and Libraries:
+-Text-to-Speech (TTS): Used for providing audio feedback on guesses.
+-Library: Android's TextToSpeech class.
+
+Shake Detection:
+-Library: Sensey - Detects shake events to reset the game.
+
+Animations:
+-Library: YoYo - Provides various animations for UI elements to enhance the user experience.
+
+Shared Preferences:
+Used for storing and retrieving sound settings.
+
+-Toast Notifications:
+Provides feedback to users about game status and instructions.
+
+Lessons Learned:
+-Integration of TTS: Gained experience in integrating text-to-speech functionality to enhance accessibility and user feedback.
+-Using Animation Libraries: Learned how to incorporate animations into an app to make it more interactive and engaging.
+-Shake Detection: Implemented shake detection to provide an additional, intuitive way for users to interact with the app.
+-Shared Preferences: Utilized shared preferences to save user settings, ensuring a consistent experience across app sessions.
