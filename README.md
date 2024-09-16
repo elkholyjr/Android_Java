@@ -8,6 +8,9 @@ calculates the shortest path between them, and determines the cost of fuel requi
 
 ![ezgif-7-7ca2f3c10f](https://github.com/user-attachments/assets/c0bebc71-0711-4d6f-ae21-2116c92efeb2)
 
+The Metro Navigation App is designed to provide users with accurate metro route directions, travel times, ticket prices, and the number of stations between two metro stations.
+The app supports multiple metro lines and dynamically calculates and displays the best available routes. It features a clean, user-friendly interface for metro navigation.
+
 
 
 
