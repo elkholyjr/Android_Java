@@ -1,0 +1,41 @@
+This repository contains two Android applications that demonstrate the use of location-based services and address geocoding in Android. The first app retrieves and displays the current geographical location of the user,
+while the second app calculates the distance between two addresses. Both applications utilize the AirLocation library and the Geocoder class.
+
+Key Features:
+-Location Retrieval: Uses the AirLocation library to request and obtain the device's current location.
+-Address Geocoding: Utilizes the Geocoder class to convert latitude and longitude into a readable address.
+-Error Handling: Displays error messages in case of failure to obtain the location or address.
+
+Libraries Used:
+-AirLocation: Simplifies location retrieval.
+-Geocoder: Converts location coordinates into a human-readable address.
+
+Code Summary:
+AirLocation is initialized and started when the user clicks a button.
+On successful location retrieval, latitude and longitude are displayed.
+Address is fetched using Geocoder and displayed alongside the location.
+App 2: Address Distance Calculator
+Purpose: This app calculates the distance between two user-provided addresses and displays the result.
+
+Key Features:
+-Address Geocoding: Converts user-input addresses into latitude and longitude using Geocoder.
+-Distance Calculation: Calculates the distance between two geographical locations.
+-Error Handling: Provides user feedback if the addresses cannot be found.
+
+Libraries Used:
+-Geocoder: Used for converting addresses into coordinates and calculating distances.
+
+Code Summary:
+Geocoder is used to fetch latitude and longitude for both addresses.
+The distance between the two locations is calculated using Location.distanceTo().
+The calculated distance is displayed to the user.
+
+What I Learned:
+-Using AirLocation Library: Gained experience with AirLocation for simplified location retrieval.
+-Geocoding Addresses: Learned how to use Geocoder to convert addresses to coordinates and vice versa.
+-Distance Calculation: Implemented distance calculation between two geographical points using Location.distanceTo().
+-Handling Permissions and Errors: Managed location permissions and handled potential errors effectively.
+-Libraries and Tools
+-AirLocation: A library for simplified location retrieval in Android.
+-Geocoder: An Android class for converting addresses into geographical coordinates and calculating distances.
+-Android Location API: Utilized for location-based functionalities.
