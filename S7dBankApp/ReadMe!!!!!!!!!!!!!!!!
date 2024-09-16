@@ -1,0 +1,17 @@
+This app is designed to help users calculate the final amount of an investment based on principal amount, number of years, and annual interest rate. It provides a simple interface where users can input these values and see the resulting amount.
+The app also features functionality to manage and update previously calculated results.
+
+Features:
+-Calculate Investment Amount: Users can input the principal amount, number of years, and annual interest rate to calculate the final amount using the compound interest formula.
+-Manage Results: The app keeps a history of previous calculations and allows users to update the results if they already exist.
+
+Technologies Used:
+-Android SDK: For building the Android application.
+-Java: The programming language used for the app's development.
+-Android UI Components: EditText, TextView, and Toast are used for user input and displaying results.
+-Compound Interest Calculation: Implemented using the formula 
+A= P X (1+(r/100))^t
+Lessons Learned:
+-Basic UI Handling: Implemented a user interface to gather input and display results.
+-String Manipulation: Managed and updated result entries by checking if a result line already exists and updating it as needed.
+-Financial Calculation: Applied the compound interest formula to calculate the final investment amount.
