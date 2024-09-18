@@ -1,4 +1,4 @@
-package com.deyaa.metroappv1;
+package com.metroappv1;
 
 import org.junit.Test;
 
