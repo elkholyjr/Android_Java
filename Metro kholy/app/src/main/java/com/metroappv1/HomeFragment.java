@@ -1,5 +1,3 @@
-package com.deyaa.metroappv1;
-
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
