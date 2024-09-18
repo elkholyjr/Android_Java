@@ -1,4 +1,4 @@
-package com.deyaa.metroappv1;
+package com.metroappv1;
 
 import android.content.Intent;
 import android.os.Bundle;
