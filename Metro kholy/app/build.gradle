@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.deyaa.metroappv1'
+    namespace 'com.metroappv1'
     compileSdk 34
 
     defaultConfig {
