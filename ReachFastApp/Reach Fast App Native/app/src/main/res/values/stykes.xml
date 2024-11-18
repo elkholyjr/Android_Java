@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlueSpinner" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:textColorHint">@color/blue</item>
+        <item name="android:popupBackground">@color/black</item>
+    </style>
+</resources>

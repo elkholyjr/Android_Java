@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragGasApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selectcc">Select CC</string>
+    <string name="selectKind">Select Kind of vehicle</string>
+
+
+</resources>
